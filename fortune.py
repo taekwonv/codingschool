@@ -1,0 +1,12 @@
+name = input('Your name: ')
+age = input('Your age: ')
+print('')
+print('Hi' + name + '!')
+print('Your lucky number today is ')
+print('')
+import random
+lucky = random.randrange(1, int(age))
+print(lucky)
+print('')
+print('Bye~~~!')
+input('press enter...')
