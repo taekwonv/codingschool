@@ -9,8 +9,7 @@ def TTS(msg):
 
 def main():
   os.system("cls")
-  name = input("Your name? ")
-  TTS('Hi ' + name)
+  TTS('Hi ' + input('Your name? '))
 
   os.system("cls")
   print("What is the biggest fish?")
